@@ -10,7 +10,7 @@ A aplicação permite que o usuário realize seu cadastro, visualize e atualize 
 
 Os animais disponíveis para adoção são previamente cadastrados no sistema e não podem ser alterados pelos usuários. Atualmente, o sistema suporta o cadastro de até 10 usuários e trabalha com um banco fixo de 10 animais, sendo uma aplicação voltada para demonstrar os conceitos de programação orientada a objetos, manipulação de vetores, métodos, encapsulamento e interação com o usuário por meio do console.
 
-c)  imagem do diagrama de classes e com explicação das classes e composição entre elas; !
+c)  imagem do diagrama de classes e com explicação das classes e composição entre elas; ![Diagrama](nome_da_imagem.png)
 
 
 O diagrama de classes representa a estrutura do sistema de adoção de pets e o relacionamento entre suas principais classes. A classe Pessoa possui uma relação de composição com Endereco, pois cada pessoa possui um endereço associado. A classe Pessoa também utiliza a classe Animal para calcular a compatibilidade entre o perfil do adotante e o pet. A classe BancoDeAnimais mantém um vetor com todos os objetos da classe Animal disponíveis para adoção. A classe Registros é responsável por criar e retornar um objeto Pessoa a partir das informações inseridas pelo usuário. Por fim, a classe APP coordena o funcionamento do sistema, utilizando as demais classes para realizar o cadastro, pesquisas, alterações e o PetMatch.
