@@ -68,6 +68,16 @@ Todas as sugestões fornecidas pelo ChatGPT foram analisadas pelo grupo antes de
 
 E.5) O QUE FOI ACEITO, ALTERADO OU DESCARTADO DAS RESPOSTAS DA IA
 
+ALTERAÇÕES ACEITAS
+-  Trocar o modo de calcular a diferença, usamos valor * -1 para tornar se valor < 0 para deixar sempre positivo e não atrapalhar os cálculos, mas a I.A. nos sugeriu de usar a função Math.abs
+
+-   Mesmo sem saber explicar o motivo do erro ao ler o valor double metragem, nos recomendou trocar para uma leitura de String e usar o Double.parseDouble
+
+ALTERAÇÕES DESCARTADAS
+-  Dar a opção de alterar absolutamente todos os atributos da classe pessoa, mas não achamos que seria de grande relevância mudanças como de gênero e idade
+
+-  Incrementar saídas de texto para fazer uma espécie de Layout, mas não tivemos como necessário fazer algo puramente estético
+
 As respostas foram utilizadas apenas como apoio ao desenvolvimento. Diversas sugestões foram adaptadas para atender à estrutura adotada pelo projeto, mantendo a organização definida pelo grupo. Algumas recomendações foram descartadas quando não eram compatíveis com os requisitos do trabalho ou quando existiam soluções consideradas mais adequadas após análise e testes realizados pela equipe.
 
 ---
